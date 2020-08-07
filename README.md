@@ -63,5 +63,28 @@ You may also run either app by using the standard build and run tools in each pl
 
 ## Screens
 
+__Login Screen__
+![alt text](https://github.com/rjravijoshi111/react-native-firebase-chat/blob/master/preview_images/01.png)
+
+__Sign up Screen__
+![alt text](https://github.com/rjravijoshi111/react-native-firebase-chat/blob/master/preview_images/02.png)
+
+__Chat UserList__
+![alt text](https://github.com/rjravijoshi111/react-native-firebase-chat/blob/master/preview_images/03.png)
+
+__More Screen__
+![alt text](https://github.com/rjravijoshi111/react-native-firebase-chat/blob/master/preview_images/04.png)
+
+__Edit Profile Screen__
+![alt text](https://github.com/rjravijoshi111/react-native-firebase-chat/blob/master/preview_images/05.png)
+
+__Chat Screen__
+![alt text](https://github.com/rjravijoshi111/react-native-firebase-chat/blob/master/preview_images/07.png)
+
+__New User List Screen__
+![alt text](https://github.com/rjravijoshi111/react-native-firebase-chat/blob/master/preview_images/08.png)
+
+__Upload Media__
+![alt text](https://github.com/rjravijoshi111/react-native-firebase-chat/blob/master/preview_images/09.png)
 
 
