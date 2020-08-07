@@ -1,28 +1,25 @@
 # react-native-firebase-chat
 
+React Native chat application using Firebase backend. 
+
+In this project We have used following Firebase serivces.
+* **Firebase Authentication** : For authentication user by phone number
+* **Firebase RealTime Database** : That's we for handle realtime chat
+* **Firebase Storage** : That's we use for store user profile image
+
 ## Setup
-Before attempting to run this demo please make sure that you have taken care of the following dependencies
 
-Ensure that you have [node](https://nodejs.org/en/download/) installed and then use npm to install react native as described below
 
-### Installing node
-The simplest way to get started is to install [homebrew](https://brew.sh) on your system.
-You can then install node and watchman with the following commands
+## Firebase Steup
+- For Firebase setup you need follow this [instructions](https://firebase.google.com/docs/android/setup)
+
+
+## Steps to Run
+### 1. Clone project and install the dependencies
 ```
-brew install node
-brew install watchman
-brew install yarn
+git clone git@github.com:rjravijoshi111/react-native-firebase-chat.git && cd react-native-firebase-chat && yarn install
 ```
 
-### Installing React-Native Command Line Interface
-You may install react-native with the following npm command
-```
-npm install -g react-native-cli
-```
-once this is complete, navigate to this projects folder and type 
-```
-yarn install
-``` 
 to install all dependencies listed in the project's package.json file
 
 ### Configuring the environments for iOS and Android
@@ -35,16 +32,15 @@ pod install
 ```
 to install the latest iOS SDK
 
-__Android (Android Studio)__
+### 2. Setup firebase in iOS and Android
+ __For iOS__
+ - Download `GoogleService-Info.plist` from Firebase Project and copy it to `react-native-firebase-chat/ios`
 
-Open the Android project folder in Android Studio
-Aside from instant run, install any recommended dependencies and build tools that are suggested
+ __For android__
+- Download `google-services.json` from Firebase Project and copy it to `react-native-firebase-chat/android/app`
 
 
-## Running the project
-The hello world project is designed to work with both ios and android systems. It will run on the simulator or the actual device.
-
-You can start streaming the app to your device with the following commands
+### 3. Running the project
 
 __For iOS__
 
