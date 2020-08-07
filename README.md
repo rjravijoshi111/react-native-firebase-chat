@@ -11,6 +11,7 @@ You can then install node and watchman with the following commands
 ```
 brew install node
 brew install watchman
+brew install yarn
 ```
 
 ### Installing React-Native Command Line Interface
@@ -20,7 +21,7 @@ npm install -g react-native-cli
 ```
 once this is complete, navigate to this projects folder and type 
 ```
-npm install
+yarn install
 ``` 
 to install all dependencies listed in the project's package.json file
 
